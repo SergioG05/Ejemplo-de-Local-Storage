@@ -1,0 +1,8 @@
+<div>
+  <h1>Local Storage Example</h1>
+  <p>Enter a name to save to local storage:</p>
+  <input type="text" [(ngModel)]="nombreInput">
+  <button (click)="guardarNombre()">Guardar</button>
+  <p>Nombre guardado en Local Storage:</p>
+  <p id="nombreGuardado">{{ nombreGuardado }}</p>
+</div>
